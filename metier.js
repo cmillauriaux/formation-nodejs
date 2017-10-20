@@ -27,5 +27,5 @@ let jerry = new metier.Animal();
 
 var readlineSync = require('readline-sync');
 
-var userName = readlineSync.question('Quel est votre nom ? ');
+var userName = readlineSync.question('Quel est votre prénom ? ');
 console.log('Hi ' + userName + '!');
